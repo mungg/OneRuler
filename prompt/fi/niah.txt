@@ -1,0 +1,16 @@
+{
+"task": "Ole hyvä ja lue sekä opettele alla oleva teksti ulkoa. Kysyn sinulta siitä myöhemmin.\n\n<Teksti>\n{context}\n</Teksti>\n\n",
+"needle_words": "Erityinen taikasana sanalle \"{key}\" on: {value}",
+"needle_numbers": "Erityinen taikaluku sanalle \"{key}\" on: {value}",
+"question_single_numbers": "<Kysymys> Mitkä erityiset taikanumerot, jotka liittyvät sanaan \"{query1}\", mainitaan annetussa tekstissä?",
+"question_single_words": "<Kysymys> Mitkä erityiset taikasanat, jotka liittyvät sanaan \"{query1}\", mainitaan annetussa tekstissä?",
+"question_multi_numbers": "<Kysymys> Mitkä erityiset taikanumerot, jotka liittyvät sanoihin \"{query1}\" ja \"{query2}\", mainitaan annetussa tekstissä?",
+"question_multi_words": "<Kysymys> Mitkä erityiset taikasanat, jotka liittyvät sanoihin \"{query1}\" ja \"{query2}\", mainitaan annetussa tekstissä?",
+"please_list": "Luettele kaikki soveltuvat.",
+"if_no_numbers": "Jos tällaisia numeroita ei ole, vastaa \"ei mikään\".</Kysymys>\n\n\n",
+"if_no_words": "Jos tällaisia sanoja ei ole, vastaa \"ei mikään\".</Kysymys>\n\n\n",
+"answer_prefix": "Ole hyvä ja anna vastauksesi seuraavassa muodossa:\n",
+"answer_words": "<Vastaus> Listaa kaikki sanat tähän </Vastaus>",
+"answer_numbers": "<Vastaus> Luettele kaikki numerot tähän </Vastaus>",
+"none": "ei mikään"
+}

@@ -1,0 +1,9 @@
+Níže je uveden očíslovaný seznam slov. Některá slova se v nich vyskytují častěji než jiná. Zapamatuj si ta, která se vyskytují nejčastěji
+
+<Seznam> {context} </Seznam>
+
+<Otázka> Jakých je 10 nejčastějších slov ve výše uvedeném seznamu? </Otázka>
+
+Uveď svou odpověď v následujícím formátu:
+<Odpověď> Zde uveď slova </Odpověď>
+

@@ -1,0 +1,9 @@
+Nedenfor er en nummerert liste over ord. Noen av ordene forekommer oftere enn andre. Memorer de som forekommer oftest.
+
+<Liste> {context} </Liste>
+
+<Spørsmål> Hva er de 10 vanligste ordene i listen ovenfor? </Spørsmål>
+
+Vennligst oppgi svaret ditt i følgende format:
+<Svar> List opp ordene her </Svar>
+

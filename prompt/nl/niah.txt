@@ -1,0 +1,16 @@
+{
+"task": "Lees en onthoud de onderstaande tekst. Ik zal je er later naar vragen.\n\n<Tekst>\n{context}\n</Tekst>\n\n",
+"needle_words": "Het speciale magische woord voor \"{key}\" is: {value}",
+"needle_numbers": "Het speciale magische nummer voor \"{key}\" is: {value}",
+"question_single_numbers": "<Vraag> Welke speciale magische getallen die geassocieerd zijn met \"{query1}\" worden genoemd in de verstrekte tekst?",
+"question_single_words": "<Vraag> Welke speciale magische woorden die geassocieerd worden met \"{query1}\" worden genoemd in de verstrekte tekst?",
+"question_multi_numbers": "<Vraag> Welke speciale magische getallen geassocieerd met \"{query1}\" en \"{query2}\" worden genoemd in de verstrekte tekst?",
+"question_multi_words": "<Vraag> Welke speciale magische woorden geassocieerd met \"{query1}\" en \"{query2}\" worden genoemd in de verstrekte tekst?",
+"please_list": "Geef alstublieft alle toepasselijke opties weer.",
+"if_no_numbers": "Als er geen dergelijke nummers bestaan, antwoord dan alstublieft \"geen\".</Vraag>\n\n\n",
+"if_no_words": "Als dergelijke woorden niet bestaan, antwoord dan \"geen\".</Vraag>\n\n\n",
+"answer_prefix": "Geef je vertaling in het volgende formaat:\n",
+"answer_words": "<Antwoord> Som hier alle woorden op </Antwoord>",
+"answer_numbers": "<Antwoord> Lijst alle nummers hier </Antwoord>",
+"none": "geen"
+}

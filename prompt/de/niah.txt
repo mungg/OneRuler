@@ -1,0 +1,16 @@
+{
+"task": "Bitte lesen Sie den folgenden Text und lernen Sie ihn auswendig. Ich werde Sie später danach fragen.\n\n<Text>\n{context}\n</Text>\n\n",
+"needle_words": "Das besondere Zauberwort für «{key}» ist: {value}",
+"needle_numbers": "Die besondere magische Zahl für «{key}» ist: {value}",
+"question_single_numbers": "<Frage> Welche besonderen magischen Zahlen, die mit «{query1}» verbunden sind, werden im bereitgestellten Text erwähnt?",
+"question_single_words": "<Frage> Welche besonderen Zauberwörter, die mit «{query1}» verbunden sind, werden im bereitgestellten Text erwähnt?",
+"question_multi_numbers": "<Frage> Welche besonderen magischen Zahlen, die mit «{query1}» und «{query2}» verbunden sind, werden im bereitgestellten Text erwähnt?",
+"question_multi_words": "<Frage> Welche besonderen Zauberwörter, die etwas mit «{query1}» und «{query2}» zu tun haben, werden im bereitgestellten Text erwähnt?",
+"please_list": "Bitte listen Sie alle auf, die da zutreffen.",
+"if_no_numbers": "Wenn es keiner solcher Zahlen gibt, antworten Sie bitte mit «Keine vorhanden».</Frage>\n\n\n",
+"if_no_words": "Wenn es keine solchen Wörter gibt, antworten Sie bitte mit «Keine vorhanden».</Frage>\n\n\n",
+"answer_prefix": "Bitte geben Sie Ihre Übersetzung im folgenden Format an:\n",
+"answer_words": "<Antwort> Liste alle Wörter hier auf </Antwort>",
+"answer_numbers": "<Antwort> Liste alle Zahlen hier auf </Antwort>",
+"none": "Keine vorhanden"
+}

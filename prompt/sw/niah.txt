@@ -1,0 +1,16 @@
+{
+"task": "Tafadhali soma na ukariri maandishi hapa chini. Nitakuuliza kuhusu hayo baadaye.\n\n<Maandishi>\n{context}\n</Maandishi>\n\n",
+"needle_words": "Neno maalum la maajabu kwa \"{key}\" ni: {value}",
+"needle_numbers": "Nambari maalum ya maajabu ya \"{key}\" ni: {value}",
+"question_single_numbers": "<Swali> Ni nambari gani maalum za maajabu zinazohusiana na \"{query1}\" zilizotajwa katika maandishi yaliyotolewa?",
+"question_single_words": "<Swali> Ni maneno gani maalum ya maajabu yanayohusiana na \"{query1}\" yaliyotajwa katika maandishi yaliyotolewa?",
+"question_multi_numbers": "<Swali> Ni nambari gani   maalum za maajabu zinazohusiana na \"{query1}\" na \"{query2}\" zilizotajwa katika maandishi yaliyotolewa?",
+"question_multi_words": "<Swali> Ni maneno gani maalum ya maajabu yanayohusiana na \"{query1}\" na \"{query2}\" yaliyotajwa katika maandishi yaliyotolewa?",
+"please_list": "Tafadhali orodhesha yote yanayohusika.",
+"if_no_numbers": "Ikiwa hakuna nambari kama hizo, tafadhali jibu \"hakuna\".</Swali>\n\n\n",
+"if_no_words": "Ikiwa hakuna maneno kama hayo, tafadhali jibu \"hakuna\".</Swali>\n\n\n",
+"answer_prefix": "Tafadhali toa jibu lako katika muundo ufuatao:\n",
+"answer_words": "<Jibu> Orodhesha maneno yote hapa </Jibu>",
+"answer_numbers": "<Jibu> Orodhesha nambari zote hapa </Jibu>",
+"none": "hakuna"
+}

@@ -1,0 +1,16 @@
+{
+"task": "Por favor, lê e memoriza o texto abaixo. Vou questionar-te sobre ele mais tarde.\n\n<Texto>\n{context}\n</Texto>\n\n",
+"needle_words": "A palavra mágica especial para \"{key}\" é: {value}",
+"needle_numbers": "O número mágico especial para \"{key}\" é: {value}",
+"question_single_numbers": "<Pergunta> Que números mágicos especiais associados a \"{query1}\" são mencionados no texto apresentado?",
+"question_single_words": "<Pergunta> Que palavras mágicas especiais associadas a \"{query1}\" são mencionadas no texto apresentado?",
+"question_multi_numbers": "<Pergunta> Que números mágicos especiais associados a \"{query1}\" e \"{query2}\" são mencionados no texto apresentado?",
+"question_multi_words": "<Pergunta> Que palavras mágicas especiais associadas a \"{query1}\" e \"{query2}\" são mencionadas no texto apresentado?",
+"please_list": "Por favor, lista todos os que se aplicam.",
+"if_no_numbers": "Se esses números não existirem, por favor responde \"nenhum\".</Pergunta>\n\n\n",
+"if_no_words": "Se essas palavras não existirem, por favor, responde \"nenhum\".</Pergunta>\n\n\n",
+"answer_prefix": "Por favor, indica a tua resposta no seguinte formato:\n",
+"answer_words": "<Resposta> Lista todas as palavras aqui </Resposta>",
+"answer_numbers": "<Resposta> Lista todos os números aqui </Resposta>",
+"none": "nenhum"
+}

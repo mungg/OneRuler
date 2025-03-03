@@ -1,0 +1,9 @@
+Abaixo está uma lista numerada de palavras. Nessas palavras, algumas aparecem com maior frequência do que outras. Memoriza as que aparecem com maior frequência.
+
+<Lista> {context} </Lista>
+
+<Pergunta> Quais são as 10 palavras mais comuns na lista acima? </Pergunta>
+
+Por favor, indica a tua resposta no seguinte formato:
+<Resposta> Lista as palavras aqui </Resposta>
+

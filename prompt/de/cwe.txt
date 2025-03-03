@@ -1,0 +1,9 @@
+Unten ist eine nummerierte Liste von Wörtern. Einige dieser Wörter kommen häufiger vor als andere. Merken Sie sich die Wörter, die am häufigsten vorkommen.
+
+<Liste> {context} </Liste>
+
+<Frage> Was sind die 10 häufigsten Wörter in der obigen Liste? </Frage>
+
+Bitte geben Sie Ihre Übersetzung im folgenden Format an:
+<Antwort> Liste die Wörter hier auf </Antwort>
+

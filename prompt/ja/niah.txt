@@ -1,0 +1,16 @@
+{
+"task": "以下のテキストを読んで記憶してください。後で質問します。\n\n<テキスト>\n{context}\n</テキスト>\n\n",
+"needle_words": "「{key}」に対する特別な魔法の言葉は{value}です",
+"needle_numbers": "「{key}」に対する特別な魔法の数字は{value}です",
+"question_single_numbers": "<質問> 上記のテキストの中で、「{query1}」に関連する特別な魔法の数字は何ですか？",
+"question_single_words": "<質問> 上記のテキストの中で、「{query1}」に関連する特別な魔法の言葉は何ですか？",
+"question_multi_numbers": "<質問> 上記のテキストの中で、「{query1}」と「{query2}」に関連する特別な魔法の数字は何ですか？",
+"question_multi_words": "<質問> 上記のテキストの中で、「{query1}」と「{query2}」に関連する特別な魔法の言葉は何ですか？",
+"please_list": "該当するものをすべて挙げてください。",
+"if_no_numbers": "該当する数字はない場合、「なし」と答えてください。</質問>\n\n\n",
+"if_no_words": "該当する言葉はない場合、「なし」と答えてください。</質問>\n\n\n",
+"answer_prefix": "以下の形式で答えてください。\n",
+"answer_words": "<答え> すべて該当する言葉をここに列挙 </答え>",
+"answer_numbers": "<答え> すべて該当する数字をここに列挙 </答え>",
+"none": "なし"
+}

@@ -1,0 +1,16 @@
+{
+"task": "Por favor, lee y memoriza el texto a continuación. Te preguntaré sobre él más tarde.\n\n<Texto>\n{context}\n</Texto>\n\n",
+"needle_words": "La palabra mágica especial para \"{key}\" es: {value}",
+"needle_numbers": "El número mágico especial para \"{key}\" es: {value}",
+"question_single_numbers": "<Pregunta> ¿Qué números mágicos especiales asociados con \"{query1}\" se mencionan en el texto proporcionado?",
+"question_single_words": "<Pregunta> ¿Qué palabras mágicas especiales asociadas con \"{query1}\" se mencionan en el texto proporcionado?",
+"question_multi_numbers": "<Pregunta> ¿Qué números mágicos especiales asociados con \"{query1}\" y \"{query2}\" se mencionan en el texto proporcionado?",
+"question_multi_words": "<Pregunta> ¿Qué palabras mágicas especiales asociadas con \"{query1}\" y \"{query2}\" se mencionan en el texto proporcionado?",
+"please_list": "Por favor, enumera todos los que correspondan.",
+"if_no_numbers": "Si no existen tales números, por favor responde \"ninguno\".</Pregunta>\n\n\n",
+"if_no_words": "Si no existen tales palabras, por favor responde \"ninguno\".</Pregunta>\n\n\n",
+"answer_prefix": "Por favor, proporciona su traducción en el siguiente formato:\n",
+"answer_words": "<Respuesta> Enumera todas las palabras aquí </Respuesta>",
+"answer_numbers": "<Respuesta> Enumera todos los números aquí </Respuesta>",
+"none": "ninguno"
+}

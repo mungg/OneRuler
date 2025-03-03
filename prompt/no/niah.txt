@@ -1,0 +1,16 @@
+{
+"task": "Vennligst les og husk teksten nedenfor. Jeg vil spørre deg om den senere.\n\n<Tekst>\n{context}\n</Tekst>\n\n",
+"needle_words": "Det spesielle magiske ordet for \"{key}\" er: {value}",
+"needle_numbers": "Det spesielle magiske tallet for \"{key}\" er: {value}",
+"question_single_numbers": "<Spørsmål> Hvilke spesielle magiske tall knyttet til \"{query1}\" er nevnt i den gitte teksten?",
+"question_single_words": "<Spørsmål> Hvilke spesielle magiske ord knyttet til \"{query1}\" er nevnt i den gitte teksten?",
+"question_multi_numbers": "<Spørsmål> Hvilke spesielle magiske tall knyttet til \"{query1}\" og \"{query2}\" er nevnt i den oppgitte teksten?",
+"question_multi_words": "<Spørsmål> Hvilke spesielle magiske ord knyttet til \"{query1}\" og \"{query2}\" er nevnt i den oppgitte teksten?",
+"please_list": "Vennligst oppgi alle som gjelder.",
+"if_no_numbers": "Hvis ingen slike tall finnes, vennligst svar \"ingen\".</Spørsmål>\n\n\n",
+"if_no_words": "Hvis ingen slike ord finnes, vennligst svar \"ingen\".</Spørsmål>\n\n\n",
+"answer_prefix": "Vennligst oppgi svaret ditt i følgende format:\n",
+"answer_words": "<Svar> List opp alle ordene her </Svar>",
+"answer_numbers": "<Svar> List opp alle tallene her </Svar>",
+"none": "ingen"
+}
