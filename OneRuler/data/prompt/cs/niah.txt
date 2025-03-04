@@ -1,0 +1,16 @@
+{
+"task": "Přečti si a zapamatuj následující text. Později se tě na něj zeptám.\n\n<Text>\n{context}\n</Text>\n\n",
+"needle_words": "Pro heslo \"{key}\" je speciální kouzelné slovo: {value}",
+"needle_numbers": "Pro heslo \"{key}\" je speciální kouzelné číslo: {value}",
+"question_single_numbers": "<Otázka> Jaká speciální kouzelná čísla spojená se slovem \"{query1}\" jsou uvedena v poskytnutém textu?",
+"question_single_words": "<Otázka> Jaká speciální kouzelná slova spojená se slovem \"{query1}\" jsou uvedena v poskytnutém textu?",
+"question_multi_numbers": "<Otázka> Jaká speciální kouzelná čísla spojená se slovy \"{query1}\" a \"{query2}\" jsou uvedena v poskytnutém textu?",
+"question_multi_words": "<Otázka> Jaká speciální kouzelná slova spojená se slovy \"{query1}\" a \"{query2}\" jsou uvedena v poskytnutém textu?",
+"please_list": "Uveď prosím všechny, které odpovídají.",
+"if_no_numbers": "Pokud taková čísla neexistují, odpověz prosím \"žádné\".</Otázka>\n\n\n",
+"if_no_words": "Pokud taková slova neexistují, odpověz prosím \"žádné\".</Otázka>\n\n\n",
+"answer_prefix": "Odpověď uveď v následujícím formátu:\n",
+"answer_words": "<Odpověď> Zde uveď všechna slova </Odpověď>",
+"answer_numbers": "<Odpověď> Zde uveď všechna čísla </Odpověď>",
+"none": "žádné"
+}

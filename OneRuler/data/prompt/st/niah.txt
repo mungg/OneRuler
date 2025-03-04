@@ -1,0 +1,16 @@
+{
+"task": "Ka kopo bala 'me u hopole sengoloa se ka tlase. Ke tla u botsa ka sona hamorao.\n\n<Mongolo>\n{context}\n</Mongolo>\n\n",
+"needle_words": "Lentsoe la boselamose le khethehileng bakeng sa \"{key}\" ke: {value}",
+"needle_numbers": "Nomoro e khethehileng ea boselamose bakeng sa \"{key}\" ke: {value}",
+"question_single_numbers": "<Potso> Ke dinomoro dife tse kgethehileng tsa boselamose tse amanang le \"{query1}\" tse boletsweng temaneng e fanoeng?",
+"question_single_words": "<Potso> Ke mantsoe afe a boselamose a kgethehileng a amanang le \"{query1}\" a boletsweng temaneng e fanoeng?",
+"question_multi_numbers": "<Potso> Ke dinomoro dife tse kgethehileng tsa boselamose tse amanang le \"{query1}\" le \"{query2}\" tse boletsweng temaneng e fanoeng?",
+"question_multi_words": "<Potso> Ke mantsoe afe a boselamose a kgethehileng a amanang le \"{query1}\" le \"{query2}\" a boletsweng temaneng e fanoeng?",
+"please_list": "Ka kopo, thathamisa tsohle tse sebetsang.",
+"if_no_numbers": "Haeba ho se na dinomoro tse joalo, ka kopo araba \"ha ho letho\".</Potso>\n\n\n",
+"if_no_words": "Haeba ha ho mantsoe a joalo, ka kopo araba \"ha ho letho\".</Potso>\n\n\n",
+"answer_prefix": "Ka kopo fana karabo ea hau ka mokhoa o latelang:\n",
+"answer_words": "<Karabo> Thatamisa mantsoe ohle mona </Karabo>",
+"answer_numbers": "<Karabo> Thatamisa dinomoro tsohle mona </Karabo>",
+"none": "ha ho letho"
+}

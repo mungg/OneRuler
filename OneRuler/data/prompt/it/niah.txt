@@ -1,0 +1,16 @@
+{
+"task": "Leggi e cerca di memorizzare il testo qui sotto. Dopo ti farò qualche domanda.\n\n<Testo>\n{context}\n</Testo>\n\n",
+"needle_words": "La parola magica speciale per \"{key}\" è: {value}",
+"needle_numbers": "Il numero magico speciale per \"{key}\" è: {value}",
+"question_single_numbers": "<Domanda> Quali numeri magici speciali relativi a \"{query1}\" vengono citati nel testo?",
+"question_single_words": "<Domanda> Quali parole magiche speciali relative a \"{query1}\" vengono citate nel testo?",
+"question_multi_numbers": "<Domanda> Quali numeri magici speciali relativi a \"{query1}\" e \"{query2}\" vengono citati nel testo?",
+"question_multi_words": "<Domanda> Quali parole magiche speciali relative a \"{query1}\" e \"{query2}\" vengono citate nel testo?",
+"please_list": "Elenca tutti quelli che si applicano.",
+"if_no_numbers": "Se non ce ne sono, scrivi \"nessuno\".</Domanda>\n\n\n",
+"if_no_words": "Se non ce ne sono, scrivi \"nessuno\"</Domanda>\n\n\n",
+"answer_prefix": "Fornisci la risposta in questo formato:\n",
+"answer_words": "<Risposta> Elenca tutte le parole qui </Risposta>",
+"answer_numbers": "<Risposta> Elenca tutti i numeri qui </Risposta>",
+"none": "nessuno"
+}

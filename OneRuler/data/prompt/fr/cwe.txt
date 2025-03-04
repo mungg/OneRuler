@@ -1,0 +1,9 @@
+Voici une liste numérotée de mots. Parmi ces mots, certains apparaissent plus souvent que d'autres. Mémorisez ceux qui apparaissent le plus souvent.
+
+<Liste> {context} </Liste>
+
+<Question> Quels sont les 10 mots les plus courants dans la liste ci-dessus ? </Question>
+
+Veuillez fournir votre traduction dans le format suivant :
+<Réponse> Énumérez les mots ici </Réponse>
+

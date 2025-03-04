@@ -1,0 +1,8 @@
+Poniżej znajduje się ponumerowana lista słów. Niektóre słowa pojawiają się na niej częściej niż inne. Zapamiętaj te, które pojawiają się najczęściej.
+
+<lista> {context} </lista>
+
+<pytanie> Jakie jest 10 słów, które najczęściej występują na powyższej liście? </pytanie>
+
+Podaj swoją odpowiedź w następującej formie:
+<odpowiedź> Wszystkie takie słowa powinny się znaleźć tutaj </odpowiedź>

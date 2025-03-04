@@ -1,0 +1,16 @@
+{
+"task": "Vänligen läs och memorera texten nedan. Jag kommer att fråga dig om den senare.\n\n<Text>\n{context}\n</Text>\n\n",
+"needle_words": "Det speciella magiska ordet för \"{key}\" är: {value}",
+"needle_numbers": "Den speciella magiska tal för \"{key}\" är: {value}",
+"question_single_numbers": "<Fråga> Vilka speciella magiska tal associerade med \"{query1}\" nämns i den tillhandahållna texten?",
+"question_single_words": "<Fråga> Vilka speciella magiska ord associerade med \"{query1}\" nämns i den tillhandahållna texten?",
+"question_multi_numbers": "<Fråga> Vilka speciella magiska tal associerade med \"{query1}\" och \"{query2}\" nämns i den tillhandahållna texten?",
+"question_multi_words": "<Fråga> Vilka speciella magiska ord associerade med \"{query1}\" och \"{query2}\" nämns i den tillhandahållna texten?",
+"please_list": "Vänligen lista alla som gäller.",
+"if_no_numbers": "Om inga sådana tal finns, svara vänligen \"inga\".</Fråga>\n\n\n",
+"if_no_words": "Om inga sådana ord finns, svara vänligen \"inga\".</Fråga>\n\n\n",
+"answer_prefix": "Vänligen ge ditt svar i följande format:\n",
+"answer_words": "<Svar> Lista alla ord här </Svar>",
+"answer_numbers": "<Svar> Lista alla tal här </Svar>",
+"none": "inga"
+}

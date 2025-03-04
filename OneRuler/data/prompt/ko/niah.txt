@@ -1,0 +1,16 @@
+{
+    "task": "아래의 글을 읽고 기억하십시오. 나중에 이에 대해 질문할 것입니다.\n\n<글>\n{context}\n</글>\n\n",
+    "needle_words": "\"{key}\"의 특별한 마법의 단어는 {value} 입니다",
+    "needle_numbers": "\"{key}\"의 특별한 마법의 숫자는 {value} 입니다",
+    "question_single_numbers": "<질문> 주어진 글에서 언급된 \"{query1}\"에 대한 특별한 마법의 숫자들은 무엇인가요?",
+    "question_single_words": "<질문> 주어진 글에서 언급된 \"{query1}\"에 대한 특별한 마법의 단어들은 무엇인가요?",
+    "question_multi_numbers": "<질문> 주어진 글에서 언급된 \"{query1}\"와(과) \"{query2}\"에 대한 특별한 마법의 숫자들은 무엇인가요?",
+    "question_multi_words": "<질문> 주어진 글에서 언급된 \"{query1}\"와(과) \"{query2}\"에 대한 특별한 마법의 단어들은 무엇인가요?",
+    "please_list": "해당되는 모든 것을 나열하세요.",
+    "if_no_numbers": "해당되는 숫자가 존재하지 않는다면 \"없음\"이라고 대답하세요. </질문>\n\n\n",
+    "if_no_words": "해당되는 단어가 존재하지 않는다면 \"없음\"이라고 대답하세요. </질문>\n\n\n",
+    "answer_prefix": "답변을 다음 형식으로 제공해주세요:\n",
+    "answer_words": "<답변> 모든 단어를 여기에 나열하세요. </답변>",
+    "answer_numbers": "<답변> 모든 숫자를 여기에 나열하세요. </답변>",
+    "none": "없음"
+}

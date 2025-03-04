@@ -1,0 +1,9 @@
+Ispod je numerisana lista reči. U ovim rečima, neke se pojavljuju češće od drugih. Zapamti one koje se pojavljuju najčešće.
+
+<Lista> {context} </Lista>
+
+<Pitanje> Kojih 10 reči su najčešće na gornjoj listi? </Pitanje>
+
+Molim te da svoj odgovor dostaviš u sledećem formatu:
+<Odgovor> Navedi reči ovde </Odgovor>
+

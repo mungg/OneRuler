@@ -1,0 +1,16 @@
+{
+"task": "Kérlek, olvasd el és jegyezd meg az alábbi szöveget. Később kérdezni foglak róla.\n\n<Szöveg>\n{context}\n</Szöveg>\n\n",
+"needle_words": "\"{key}\" kulcsszó különleges varázsszava: {value}",
+"needle_numbers": "\"{key}\" kulcsszó különleges varázsszáma: {value}",
+"question_single_numbers": "<Kérdés> Milyen különleges varázsszámok szerepelnek a megadott szövegben, melyek kapcsolódnak a kulcsszóhoz: \"{query1}\"?",
+"question_single_words": "<Kérdés> Milyen különleges varázsszavak szerepelnek a megadott szövegben, melyek kapcsolódnak a kulcsszóhoz: \"{query1}\"?",
+"question_multi_numbers": "<Kérdés> Milyen különleges varázsszámok szerepelnek a megadott szövegben, melyek kapcsolódnak a kulcsszavakhoz: \"{query1}\" és \"{query2}\"?",
+"question_multi_words": "<Kérdés> Milyen különleges varázsszavak szerepelnek a megadott szövegben, melyek kapcsolódnak a kulcsszavakhoz: \"{query1}\" és \"{query2}\"?",
+"please_list": "Kérlek, sorold fel az összes vonatkozót.",
+"if_no_numbers": "Ha nincsenek ilyen számok, kérlek válaszolj azzal, hogy \"nincs\".</Kérdés>\n\n\n",
+"if_no_words": "Ha nincsenek ilyen szavak, kérlek válaszolj azzal, hogy \"nincs\".</Kérdés>\n\n\n",
+"answer_prefix": "Kérlek, add meg a válaszod az alábbi formátumban:\n",
+"answer_words": "<Válasz> Sorold fel az összes szót itt </Válasz>",
+"answer_numbers": "<Válasz> Sorold fel az összes számot itt </Válasz>",
+"none": "nincs"
+}

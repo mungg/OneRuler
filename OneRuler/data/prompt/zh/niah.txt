@@ -1,0 +1,16 @@
+{
+  "task": "请阅读并记住下面的文字。我一会儿会问你和它相关的问题。\n\n<文本>\n{context}\n</文本>\n\n",
+  "needle_words": "“{key}”的魔法词是：{value}",
+  "needle_numbers": "“{key}”的魔法数字是：{value}",
+  "question_single_numbers": "<问题> 在所提供的文本中，与“{query1}”有关的魔法数字有哪些？",
+  "question_single_words": "<问题> 在所提供的文本中，与“{query1}”有关的魔法词有哪些？",
+  "question_multi_numbers": "<问题> 在所提供的文本中，与“{query1}”和“{query2}”有关的魔法数字有哪些？",
+  "question_multi_words": "<问题> 在所提供的文本中，与“{query1}”和“{query2}”有关的魔法词有哪些？",
+  "please_list": "请列举所有适用项。",
+  "if_no_numbers": "若这样的数字不存在，请回答“无”。</问题>\n\n\n",
+  "if_no_words": "若这样的词语不存在，请回答“无”。</问题>\n\n\n",
+  "answer_prefix": "请用以下格式提供你的答案：\n",
+  "answer_words": "<答案> 在此处列出所有词语 </答案>",
+  "answer_numbers": "<答案> 在此处列出所有数字 </答案>",
+  "none": "无"
+}
