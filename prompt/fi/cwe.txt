@@ -1,9 +1,0 @@
-Alla on numeroitu luettelo sanoista. Näistä sanoista jotkut esiintyvät useammin kuin toiset. Opettele ulkoa ne, jotka esiintyvät useimmin.
-
-<Lista> {context} </Lista>
-
-<Kysymys> Mitkä ovat 10 yleisintä sanaa yllä olevassa luettelossa? </Kysymys>
-
-Ole hyvä ja anna vastauksesi seuraavassa muodossa:
-<Vastaus> Listaa sanat tähän </Vastaus>
-

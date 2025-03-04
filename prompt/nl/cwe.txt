@@ -1,9 +1,0 @@
-Hieronder staat een genummerde lijst met woorden. In deze woorden komen sommige vaker voor dan andere. Onthoud de woorden die het vaakst voorkomen.
-
-<Lijst> {context} </Lijst>
-
-<Vraag> Wat zijn de 10 meest voorkomende woorden in de bovenstaande lijst? </Vraag>
-
-Gelieve je vertaling in het volgende formaat te geven:
-<Antwoord> Noem hier de woorden op </Antwoord>
-

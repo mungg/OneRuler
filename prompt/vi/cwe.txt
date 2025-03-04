@@ -1,9 +1,0 @@
-Dưới đây là một danh sách các từ. Trong những từ này, một số từ xuất hiện thường xuyên hơn những từ khác. Hãy ghi nhớ những từ xuất hiện thường xuyên nhất.\n{context}\nCâu hỏi: 10 từ phổ biến nhất trong danh sách trên là gì?
-
-<Danh sách> {context} </Danh sách>
-
-<Câu hỏi> 10 từ ngữ phổ biến nhất trong danh sách trên là gì?  </Câu hỏi>
-
-Hãy cho câu trả lời theo hình thức như sau:
-<Câu trả lời> Câu trả lời: 10 từ xuất hiện nhiều nhất trong danh sách là </Câu trả lời>
-

@@ -1,9 +1,0 @@
-Nedenfor er en nummereret liste over ord. Nogle af disse ord optræder oftere end andre. Hust dem, der optræder oftest.
-
-<Liste> {context} </Liste>
-
-<Spørgsmål> Hvad er de 10 mest almindelige ord på listen ovenfor? </Spørgsmål>
-
-Svar i følgende format:
-<Svar> Oplist ordene her </Svar>
-

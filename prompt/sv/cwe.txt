@@ -1,9 +1,0 @@
-Nedan finns en numrerad lista med ord. I dessa ord förekommer vissa oftare än andra. Memorera de som förekommer oftast.
-
-<Lista> {context} </Lista>
-
-<Fråga> Vilka är de 10 vanligaste orden i listan ovan? </Fråga>
-
-Vänligen ge din översättning i följande format:
-<Svar> Lista orden här </Svar>
-

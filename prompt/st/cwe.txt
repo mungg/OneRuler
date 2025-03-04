@@ -1,9 +1,0 @@
-Ka tlase ho na le lethathamo la mantsoe a ngotsoeng ka dinomoro. Hara mantsoe ana, a mang a hlaha khafetsa ho feta a mang. Hopola a hlahang khafetsa haholo.
-
-<Lethathamo> {context} </Lethathamo>
-
-<Potso> Ke mantsoe afe a leshome a atileng haholo lethathamong le ka holimo? </Potso>
-
-Ka kopo fana ka karabo ea hau ka mokhoa o latelang:
-<Karabo> Thatamisa mantsoe mona </Karabo>
-

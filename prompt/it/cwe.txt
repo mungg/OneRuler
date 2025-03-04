@@ -1,9 +1,0 @@
-Di seguito trovi un elenco numerato di parole. Alcune si ripetono più volte. Memorizza quelle che compaiono di più.
-
-<Elenco> {context} </Elenco>
-
-<Domanda> Quali sono le 10 parole più ricorrenti nella lista sopra? </Domanda>
-
-Fornisci la risposta in questo formato:
-<Risposta> Elenca le parole qui </Risposta>
-

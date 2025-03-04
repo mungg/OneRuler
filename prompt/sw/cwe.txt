@@ -1,9 +1,0 @@
-Hapo chini kuna orodha ya maneno yenye nambari. Katika maneno haya, mengine yanaonekana mara nyingi zaidi kuliko mengine. Kumbuka yale yanayoonekana mara nyingi zaidi.
-
-<Orodha> {context} </Orodha>
-
-<Swali> Ni maneno gani 10 yanayo onekana mara nyingi zaidi kwenye orodha iliyopo hapo juu? </Swali>
-
-Tafadhali toa jibu lako katika muundo ufuatao:
-<Jibu> Orodhesha maneno hapa </Jibu>
-

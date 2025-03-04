@@ -1,9 +1,0 @@
-Az alábbiakban egy számozott szólista található. Egyes szavak többször fordulnak elő, mint mások. Jegyezd meg azokat, amelyek a leggyakrabban szerepelnek.
-
-<Lista> {context} </Lista>
-
-<Kérdés> Melyik a 10 leggyakoribb szó a fenti listában? </Kérdés>
-
-Kérlek, add meg a válaszod az alábbi formátumban:
-<Válasz> Sorold fel a szavakat itt </Válasz>
-
