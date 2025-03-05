@@ -1,5 +1,7 @@
 # <img src="misc/oneruler.png" alt="ONERULER" width="35" height="35"> OneRuler
-`Paper`: One ruler to measure them all: Benchmarking multilingual long-context language models 
+[![arXiv](https://img.shields.io/badge/arXiv-2404.01261-b31b1b.svg)](https://arxiv.org/pdf/2503.01996) 
+
+`Paper`: [One ruler to measure them all: Benchmarking multilingual long-context language models](https://arxiv.org/pdf/2503.01996) 
 
 `Authors`: Yekyung Kim, Jenna Russell, Marzena Karpinska, Mohit Iyyer
 
