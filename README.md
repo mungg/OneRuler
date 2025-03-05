@@ -3,6 +3,6 @@
 
 `Authors`: Yekyung Kim, Jenna Russell, Marzena Karpinska, Mohit Iyyer
 
-OneRuler is dataset for evaluation of multilingual long-context language models. This work is based on [RULER](https://arxiv.org/pdf/2404.06654) and extend it to 25 langugaes. base code is also from [RULER repo](https://github.com/NVIDIA/RULER).
+ONERULER is a multilingual benchmark designed to evaluate long-context language models across 26 languages. ONERULER adapts the English-only [RULER](https://arxiv.org/pdf/2404.06654) benchmark by including seven synthetic tasks that test both retrieval and aggregation, including new variations of the “needle-in-a-haystack” task that allow for the possibility of a nonexistent needle. We translate English instructions for each task and then collaborating with native speakers to translate them into 25 additional languages.  
 
-
+This code is based on /[Repo](https://github.com/NVIDIA/RULER). 
