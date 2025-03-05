@@ -35,8 +35,8 @@ import pandas as pd
 from pathlib import Path
 from tqdm import tqdm
 import random
+import json
 import wonderwords
-from nemo.collections.asr.parts.utils.manifest_utils import read_manifest, write_manifest
 import sys
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")) 
 from tokenizer import select_tokenizer
@@ -198,8 +198,10 @@ def main():
     
     write_jsons = sys_word_pair_random(num_samples=args.num_samples, max_seq_length=args.max_seq_length, save_dir=args.save_dir)
 
-    ensure_ascii = True if lang =='en' else False
-    write_manifest(save_file, write_jsons, ensure_ascii=ensure_ascii)
+    with open(save_file, "w", encoding="utf-8") as outfile:
+        for tgt in write_jsons:
+            json.dump(tgt, outfile, ensure_ascii=False)
+            outfile.write('\n')
 
 if __name__=="__main__":
     main()
