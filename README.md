@@ -59,24 +59,23 @@ pip install -r requirement.txt
 
 4. Run `run_data_generation.sh` or `run_data_generation_xling.sh`
    * Set your path of `HF_HOME`, `STANZA_RESOURCES_DIR` and save directory. Otherwise, Huggingface and Stanze will save model to your home directory.
-     ```markdown
-      export HF_HOME=''
-      export STANZA_RESOURCES_DIR=''
+   ```markdown
+    export HF_HOME=''
+    export STANZA_RESOURCES_DIR=''
 
-      GPUS="1" # GPU size for tensor_parallel.
-      ROOT_DIR="dataset" # the path that stores generated task samples and model predictions.
-      MODEL_DIR="../.." # the path that contains individual model folders from HUggingface.
-      CONFIG_DIR='./config/'
-      ENGINE_DIR="." # the path that contains individual engine folders from TensorRT-LLM.
-      BATCH_SIZE=1  # increase to improve GPU utilization
-     ```
+    GPUS="1" # GPU size for tensor_parallel.
+    ROOT_DIR="dataset" # the path that stores generated task samples and model predictions.
+    MODEL_DIR="../.." # the path that contains individual model folders from HUggingface.
+    CONFIG_DIR='./config/'
+    ENGINE_DIR="." # the path that contains individual engine folders from TensorRT-LLM.
+    BATCH_SIZE=1  # increase to improve GPU utilization
+   ```
    * Run with arguments
-     * Usage
-       * Mono-lingual: bash run_data_generation.sh {model_name} synthetic {language_code}
+     * Mono-lingual: bash run_data_generation.sh {model_name} synthetic {language_code}
      ```markdown
      bash run_data_generation.sh Llama3 synthetic ko
       ```
-       * Cross-lingual: bash run_data_generation_xling.sh {model_name} synthetic {context_language_code} {instruct_langauge_code}
+     * Cross-lingual: bash run_data_generation_xling.sh {model_name} synthetic {context_language_code} {instruct_langauge_code}
      ```markdown
      bash run_data_generation_xling.sh Llama3 synthetic ko en
       ```
