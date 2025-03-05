@@ -92,6 +92,7 @@ Run eval/evaluate.py with arguments:
 
 
 ## 🕵️‍♀️ Trouble Shooting 
-*  If data generation takes too much time, it could be:
-   1.  If you are running the NIAH task, running Stanza on CPU takes longer! We recommend using GPU for data generation for the NIAH task.
-   2.  There are issues in the code (wrong path or errors), but `prepare.py` uses `subprocess`, so it sometimes gets stuck without giving an error. If you want to make sure, you can debug the task code directly via the printed command.
+
+* If data generation is taking too long, check these common issues:
+   1. For NIAH tasks: `Stanza` runs much slower on CPU. Using a GPU will significantly speed up data generation.
+   2. The process might be silently stuck due to code issues. Since `prepare.py` uses `subprocess`, errors don't always show up. To troubleshoot, try running the printed command directly for better error visibility.
