@@ -20,34 +20,34 @@ pip install -r requirement.txt
    * `prompt`, `books` and `vocabs` translated to 26 languages will be in OneRuler/data/
    * `prompt`: Contains 26 directories with language codes, each having prompts for two tasks (`niah.txt` and `cwe.txt`)
      * `niah.txt`: Dictionary format. We divide NIAH template into partial instructions to ensure all variables can be substituted in templates without grammatical changes (e.g., singular/plural forms, gender variants).
-     ```json
-        {
-          "task": "Please read and memorize the text below. I will ask you about it later.\n\n<text>\n{context}\n</text>\n\n",
-          "needle_words": "The special magic word for \"{key}\" is: {value} ",
-          "needle_numbers": "The special magic number for \"{key}\" is: {value} ",
-          "question_single_numbers": "<Question> What special magic numbers associated with \"{query1}\" are mentioned in the provided text?",
-          "question_single_words": "<Question> What special magic words associated with \"{query1}\" are mentioned in the provided text?",
-          "question_multi_numbers": "<Question> What special magic numbers associated with \"{query1}\" and \"{query2}\" are mentioned in the provided text?",
-          "question_multi_words": "<Question> What special magic words associated with \"{query1}\" and \"{query2}\" are mentioned in the provided text? ",
-          "please_list": "Please list all that apply.",
-          "if_no_numbers": "If no such numbers exist, please answer \"none\".</Question>\n\n\n",
-          "if_no_words": "If no such words exist, please answer \"none\".</Question>\n\n\n",
-          "answer_prefix": "Please provide your answer in the following format:\n",
-          "answer_words": "<Answer> List all words here </Answer>",
-          "answer_numbers": "<Answer> List all numbers here </Answer>",
-          "none": "none"
-         }
-       ```
+   ```json
+    {
+      "task": "Please read and memorize the text below. I will ask you about it later.\n\n<text>\n{context}\n</text>\n\n",
+      "needle_words": "The special magic word for \"{key}\" is: {value} ",
+      "needle_numbers": "The special magic number for \"{key}\" is: {value} ",
+      "question_single_numbers": "<Question> What special magic numbers associated with \"{query1}\" are mentioned in the provided text?",
+      "question_single_words": "<Question> What special magic words associated with \"{query1}\" are mentioned in the provided text?",
+      "question_multi_numbers": "<Question> What special magic numbers associated with \"{query1}\" and \"{query2}\" are mentioned in the provided text?",
+      "question_multi_words": "<Question> What special magic words associated with \"{query1}\" and \"{query2}\" are mentioned in the provided text? ",
+      "please_list": "Please list all that apply.",
+      "if_no_numbers": "If no such numbers exist, please answer \"none\".</Question>\n\n\n",
+      "if_no_words": "If no such words exist, please answer \"none\".</Question>\n\n\n",
+      "answer_prefix": "Please provide your answer in the following format:\n",
+      "answer_words": "<Answer> List all words here </Answer>",
+      "answer_numbers": "<Answer> List all numbers here </Answer>",
+      "none": "none"
+     }
+     ```
      * `cwe.txt`: Full instruction template
-       ```txt
-        {
-          Below is a numbered list of words. In these words, some appear more often than others. Memorize the ones that appear most often.
-          <List> {context} </List>
-          <Question> What are the 10 most common words in the above list? </Question> 
-          Please provide your answer in the following format:
-          <Answer> List the words here </Answer>
-         }
-       ```
+   ```txt
+    {
+      Below is a numbered list of words. In these words, some appear more often than others. Memorize the ones that appear most often.
+      <List> {context} </List>
+      <Question> What are the 10 most common words in the above list? </Question> 
+      Please provide your answer in the following format:
+      <Answer> List the words here </Answer>
+     }
+   ```
    * `books`: Each language has a book. This is used as a distractor in the `niah` task.
    * `vocabs`: Contains 1) `100_noun_list_translated.tsv` and 2) `dictionaries` of words in 26 languages
      * `100_noun_list_translated.tsv`: 100 selected nouns translated into 26 languages with descriptions. Each column represents a different language. It used for `niah` task.
