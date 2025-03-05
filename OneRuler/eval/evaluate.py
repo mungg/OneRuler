@@ -1,11 +1,7 @@
 import argparse
-import csv
 import os
 import json
 import re
-import glob
-from nltk.translate.bleu_score import sentence_bleu
-import pandas as pd
 import unicodedata
 
 none_dict = {
@@ -214,7 +210,6 @@ def evaluate_jsonl(file_path, task, lang, model_name):
 
 def main():
     parser = argparse.ArgumentParser(description="Evaluate model outputs and save results")
-    parser.add_argument("--eval_folder", required=True, help="Directory to save evaluation results")
     parser.add_argument("--input_path", required=True, help="Path to the input file to evaluate")
     parser.add_argument("--task", help="Task being evaluated")
     parser.add_argument("--language", help="Language of the evaluation")
