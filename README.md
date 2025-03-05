@@ -73,12 +73,24 @@ pip install -r requirement.txt
    * Run with arguments
      * Usage
        * Mono-lingual: bash run_data_generation.sh {model_name} synthetic {language_code}
-         ```markdown
-            bash run_data_generation.sh Llama3 synthetic ko
-          ```
+     ```markdown
+     bash run_data_generation.sh Llama3 synthetic ko
+      ```
        * Cross-lingual: bash run_data_generation_xling.sh {model_name} synthetic {context_language_code} {instruct_langauge_code}
-         ```markdown
-            bash run_data_generation_xling.sh Llama3 synthetic ko en
-          ```
-   
+     ```markdown
+     bash run_data_generation_xling.sh Llama3 synthetic ko en
+      ```
+## 🔬 Evaluation
 
+Run eval/evaluate.py with arguments:
+* `input_path`: Path to the input file to evaluate
+* `task`: Task being evaluated
+* `language`: Language of the evaluation
+* `model_name`: Name of the model being evaluated
+* If you generate dataset with the above steps, your data will be saved to a path like `/BASE_DIR/MODEL/LANGUAGE/CONTEXT/TASK/validation.jsonl`. This means that your data path contains information about task, language, context length, and model name, so feel free to modify the evaluation code for your convenience!
+
+
+## 🕵️‍♀️ Trouble Shooting 
+*  If data generation takes too much time, it could be:
+   1.  If you are running the NIAH task, running Stanza on CPU takes longer! We recommend using GPU for data generation for the NIAH task.
+   2.  There are issues in the code (wrong path or errors), but `prepare.py` uses `subprocess`, so it sometimes gets stuck without giving an error. If you want to make sure, you can debug the task code directly via the printed command.
