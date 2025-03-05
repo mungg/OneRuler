@@ -1,4 +1,4 @@
-# OneRuler
+# 💍 OneRuler
 `Paper`: One ruler to measure them all: Benchmarking multilingual long-context language models 
 
 `Authors`: Yekyung Kim, Jenna Russell, Marzena Karpinska, Mohit Iyyer
