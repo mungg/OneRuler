@@ -1,5 +1,11 @@
 # <img src="misc/oneruler.png" alt="ONERULER" width="35" height="35"> OneRuler
 
+[![arXiv](https://img.shields.io/badge/arXiv-2404.01261-b31b1b.svg)](https://arxiv.org/pdf/2503.01996) 
+
+`Paper`: [One ruler to measure them all: Benchmarking multilingual long-context language models](https://arxiv.org/pdf/2503.01996) 
+
+`Authors`: Yekyung Kim, Jenna Russell, Marzena Karpinska, Mohit Iyyer
+
 ONERULER is a multilingual benchmark designed to evaluate long-context language models across 26 languages. ONERULER adapts the English-only [RULER](https://arxiv.org/pdf/2404.06654) benchmark by including seven synthetic tasks that test both retrieval and aggregation, including new variations of the “needle-in-a-haystack” (NIAH) task that allow for the possibility of a nonexistent needle. We translate English instructions for each task and then collaborating with native speakers to translate them into 25 additional languages and experiment with both 5 open source and 2 closed model.
 
 This code is based on [RULER's Repo](https://github.com/NVIDIA/RULER). 
