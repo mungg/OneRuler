@@ -4,6 +4,6 @@ Unten ist eine nummerierte Liste von Wörtern. Einige dieser Wörter kommen häu
 
 <Frage> Was sind die 10 häufigsten Wörter in der obigen Liste? </Frage>
 
-Bitte geben Sie Ihre Übersetzung im folgenden Format an:
+Bitte geben Sie Ihre Antwort im folgenden Format an:
 <Antwort> Liste die Wörter hier auf </Antwort>
 
